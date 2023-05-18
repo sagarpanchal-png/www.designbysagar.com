@@ -3,15 +3,15 @@
 
 
 :root {
-  --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-primary: "Inter", sans-serif;
-  --font-secondary: "Cardo", sans-serif;
+  --font-default: 'Clash Display', sans-serif, "Inter", sans-serif;
+  --font-primary: 'Clash Display', sans-serif;
+  --font-secondary: 'Clash Display', sans-serif;
 }
 
 /* Colors */
 :root {
   --color-default: #fafafa;
-  --color-primary: #27a776;
+  --color-primary: #D2F65A;
   --color-secondary: #161718;
 }
 
@@ -35,7 +35,7 @@ a {
 }
 
 a:hover {
-  color: #32cf93;
+  color: #D2F65A;
   text-decoration: none;
 }
 
@@ -148,7 +148,7 @@ h6 {
 
 .scroll-top i {
   font-size: 24px;
-  color: #fff;
+  color: #000;
   line-height: 0;
 }
 
@@ -327,7 +327,7 @@ h6 {
 }
 
 .header .header-social-links a:hover {
-  color: #fff;
+  color: #D2F65A;
 }
 
 @media (max-width: 575px) {
@@ -1142,13 +1142,13 @@ h6 {
   background: var(--color-primary);
   border: 0;
   padding: 10px 35px;
-  color: #fff;
+  color: #000;
   transition: 0.4s;
   border-radius: 4px;
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: rgba(39, 167, 118, 0.8);
+  background: #bef210;
 }
 
 @keyframes animate-loading {
@@ -1208,12 +1208,12 @@ h6 {
   border-radius: 4px;
   letter-spacing: 1px;
   transition: 0.3s;
-  color: #fff;
-  background: #9999;
+  color: #000;
+  background: #D2F65A;
 }
 
 .hero .btn-get-started:hover {
-  background: #9999;
+  background: #bef210;
 }
 
 @media (max-width: 768px) {
@@ -1246,4 +1246,9 @@ h6 {
 
 .footer .credits a {
   color: var(--color-primary);
+}
+
+.mail-icon{
+  color: #000;
+
 }
