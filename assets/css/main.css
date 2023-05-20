@@ -700,7 +700,8 @@ h6 {
 # Pricing Section
 --------------------------------------------------------------*/
 .gallery {
-  margin-top: 40px;
+  /* margin-top: 40px; */
+  border-radius: 10px;
 }
 
 .gallery .gallery-item {
@@ -711,6 +712,7 @@ h6 {
 
 .gallery .gallery-item img {
   transition: 0.3s;
+  border-radius: 10px;
 }
 
 .gallery .gallery-links {
@@ -720,6 +722,7 @@ h6 {
   transition: all ease-in-out 0.3s;
   background: rgba(0, 0, 0, 0.6);
   z-index: 3;
+  
 }
 
 .gallery .gallery-links .preview-link,
