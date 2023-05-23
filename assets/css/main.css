@@ -101,6 +101,12 @@ h6 {
   font-family: var(--font-secondary);
 }
 
+@media (max-width: 768px) {
+  .page-header h2 {
+    font-size: 36px;
+  }
+}
+
 .page-header p {
   color: rgba(255, 255, 255, 0.8);
 }
@@ -305,13 +311,6 @@ h6 {
   .header .logo i {
     font-size: 24px;
   }
-  .header .header-social-links a {
-    padding-left: 5px;
-  }
-  .gallery-single .swiper-button-prev,
-  .gallery-single .swiper-button-next {
-    display: none;
-  }
 }
 
 .header .header-social-links {
@@ -331,6 +330,11 @@ h6 {
   color: #D2F65A;
 }
 
+@media (max-width: 575px) {
+  .header .header-social-links a {
+    padding-left: 5px;
+  }
+}
 
 
 /*--------------------------------------------------------------
@@ -460,7 +464,7 @@ h6 {
 /*--------------------------------------------------------------
 # Mobile Navigation
 --------------------------------------------------------------*/
-@media (max-width: 1200px) {
+@media (max-width: 1279px) {
   .navbar {
     position: fixed;
     top: 0;
@@ -671,7 +675,7 @@ h6 {
   opacity: 0.3;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1199px) {
   .testimonials .swiper-slide-active {
     opacity: 1;
   }
@@ -708,7 +712,7 @@ h6 {
 
 .gallery .gallery-item img {
   transition: 0.3s;
-  border-radius: 0px;
+  border-radius: 10px;
 }
 
 .gallery .gallery-links {
@@ -803,6 +807,14 @@ h6 {
 .gallery-single .swiper-button-prev:hover:after,
 .gallery-single .swiper-button-next:hover:after {
   background-color: rgba(0, 0, 0, 0.6);
+}
+
+@media (max-width: 575px) {
+
+  .gallery-single .swiper-button-prev,
+  .gallery-single .swiper-button-next {
+    display: none;
+  }
 }
 
 .gallery-single .portfolio-info h3 {
@@ -1168,7 +1180,7 @@ h6 {
 
 .hero h2 {
   margin: 0 0 10px 0;
-  font-size: 60px;
+  font-size: 60px !important;
   font-weight: 700;
   color: #fff;
   font-family: 'Clash Display', sans-serif;
@@ -1196,7 +1208,7 @@ h6 {
   font-weight: 400;
   font-size: 14px;
   display: inline-block;
-  padding: 20px 109px;
+  padding: 20px 80px;
   border-radius: 4px;
   letter-spacing: 1px;
   transition: 0.3s;
@@ -1210,10 +1222,13 @@ h6 {
 
 @media (max-width: 768px) {
   .hero h2 {
-    font-size: 32px;
-  }
-  .page-header h2 {
-    font-size: 36px;
+    margin: 0 0 10px 0;
+    font-size: 40px !important;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Clash Display', sans-serif;
+    text-align: left;
+    text-transform: uppercase;
   }
 }
 
@@ -1251,7 +1266,9 @@ h6 {
 
 /* =====iPhone ========== */
 
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {}
+@media (max-width: 480px) {
+
+}
 
 /* ====================== */
 
@@ -1293,7 +1310,7 @@ h6 {
 
 .hero h2 {
   margin: 0 0 10px 0;
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 700;
   color: #fff;
   font-family: 'Clash Display', sans-serif !important;
@@ -1307,50 +1324,3 @@ h6 {
 .avatar-img{
   padding: 30px;
 }
-@media (max-width:320px){
-  .hero h2 {
-    margin: 0 0 10px 0;
-    font-size: 40px;
-    font-weight: 700;
-    color: #fff;
-    font-family: 'Clash Display', sans-serif !important;
-    text-align: left;
-    text-transform: uppercase;
-}
-.gallery .gallery-item img {
-  transition: 0.3s;
-  border-radius: 0px;
-}
-.proj-para {
-  font-size: 18px;
-  opacity: 80%;
-  font-family: 'Clash Display', sans-serif;
-}
-.p{
-  font-size: 14px;
-}
-.hero .btn-get-started {
-  font-family: var(--font-primary);
-  font-weight: 400;
-  font-size: 14px;
-  display: inline-block;
-  padding: 20px 57px;
-  border-radius: 4px;
-  letter-spacing: 1px;
-  transition: 0.3s;
-  color: #000;
-  background: #D2F65A;
-}
-}
-@media (max-width: 1440px){
-  hero h2 {
-    margin: 0 0 10px 0;
-    font-size: 60px;
-    font-weight: 700;
-    color: #fff;
-    font-family: 'Clash Display', sans-serif !important;
-    text-align: left;
-    text-transform: uppercase;
-}
-};
-  
