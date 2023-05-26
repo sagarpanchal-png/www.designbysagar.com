@@ -1,17 +1,17 @@
 @import url('https://fonts.cdnfonts.com/css/clash-display');
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
 :root {
-  --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-primary: "Inter", sans-serif;
-  --font-secondary: "Cardo", sans-serif;
+  --font-default: 'Clash Display', sans-serif, 'Playfair Display', serif, "Inter", sans-serif;
+  --font-primary: 'Clash Display', sans-serif;
+  --font-secondary: 'Playfair Display', serif;
 }
 
 /* Colors */
 :root {
   --color-default: #fafafa;
-  --color-primary: #27a776;
+  --color-primary: #D2F65A;
   --color-secondary: #161718;
 }
 
@@ -35,7 +35,7 @@ a {
 }
 
 a:hover {
-  color: #32cf93;
+  color: #D2F65A;
   text-decoration: none;
 }
 
@@ -148,7 +148,7 @@ h6 {
 
 .scroll-top i {
   font-size: 24px;
-  color: #fff;
+  color: #000;
   line-height: 0;
 }
 
@@ -327,7 +327,7 @@ h6 {
 }
 
 .header .header-social-links a:hover {
-  color: #fff;
+  color: #D2F65A;
 }
 
 @media (max-width: 575px) {
@@ -335,6 +335,7 @@ h6 {
     padding-left: 5px;
   }
 }
+
 
 /*--------------------------------------------------------------
 # Desktop Navigation
@@ -699,7 +700,8 @@ h6 {
 # Pricing Section
 --------------------------------------------------------------*/
 .gallery {
-  margin-top: 40px;
+  /* margin-top: 40px; */
+  border-radius: 10px;
 }
 
 .gallery .gallery-item {
@@ -710,6 +712,7 @@ h6 {
 
 .gallery .gallery-item img {
   transition: 0.3s;
+  border-radius: 10px;
 }
 
 .gallery .gallery-links {
@@ -719,6 +722,7 @@ h6 {
   transition: all ease-in-out 0.3s;
   background: rgba(0, 0, 0, 0.6);
   z-index: 3;
+
 }
 
 .gallery .gallery-links .preview-link,
@@ -1142,13 +1146,13 @@ h6 {
   background: var(--color-primary);
   border: 0;
   padding: 10px 35px;
-  color: #fff;
+  color: #000;
   transition: 0.4s;
   border-radius: 4px;
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: rgba(39, 167, 118, 0.8);
+  background: #bef210;
 }
 
 @keyframes animate-loading {
@@ -1176,10 +1180,10 @@ h6 {
 
 .hero h2 {
   margin: 0 0 10px 0;
-  font-size: 60px;
+  font-size: 60px !important;
   font-weight: 700;
   color: #fff;
-  font-family: 'Clash Display', sans-serif !important;
+  font-family: 'Clash Display', sans-serif;
   text-align: left;
   text-transform: uppercase;
 }
@@ -1208,17 +1212,23 @@ h6 {
   border-radius: 4px;
   letter-spacing: 1px;
   transition: 0.3s;
-  color: #fff;
-  background: #9999;
+  color: #000;
+  background: #D2F65A;
 }
 
 .hero .btn-get-started:hover {
-  background: #9999;
+  background: #bef210;
 }
 
 @media (max-width: 768px) {
   .hero h2 {
-    font-size: 32px;
+    margin: 0 0 10px 0;
+    font-size: 40px !important;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Clash Display', sans-serif;
+    text-align: left;
+    text-transform: uppercase;
   }
 }
 
@@ -1246,4 +1256,71 @@ h6 {
 
 .footer .credits a {
   color: var(--color-primary);
+}
+
+.mail-icon {
+  color: #000;
+
+}
+
+
+/* =====iPhone ========== */
+
+@media (max-width: 480px) {
+
+}
+
+/* ====================== */
+
+
+/* 
+--------------------------------------------------------------------------------------------- */
+
+.proj-para {
+  font-size: 30px;
+  opacity: 80%;
+  font-family: 'Clash Display', sans-serif;
+}
+
+.proj-heading {
+  font-size: 20px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  opacity: 50%;
+}
+
+.link-btn {
+  width: 100%;
+  /* min-height: 30vh;  */
+  background: #ffffff;
+  background-size: cover;
+  position: relative;
+  /* padding: 140px 0 60px 0; */
+  overflow-x: hidden;
+}
+
+.hero {
+  width: 100%;
+  min-height: 30vh;
+  background: #000;
+  background-size: cover;
+  position: relative;
+  padding: 140px 0 60px 0;
+  overflow-x: hidden;
+}
+
+.hero h2 {
+  margin: 0 0 10px 0;
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+  font-family: 'Clash Display', sans-serif !important;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.title-link{
+  color: #fff;
+}
+.avatar-img{
+  padding: 30px;
 }
