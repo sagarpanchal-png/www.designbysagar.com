@@ -3,9 +3,9 @@
 
 
 :root {
-  --font-default: 'Clash Display', sans-serif, 'Playfair Display', serif, "Inter", sans-serif;
+  --font-default: 'Clash Display', sans-serif;
   --font-primary: 'Clash Display', sans-serif;
-  --font-secondary: 'Playfair Display', serif;
+  --font-secondary: 'Clash Display', sans-serif;
 }
 
 /* Colors */
@@ -24,7 +24,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: var(--font-default);
+ font-family: 'Clash Display', sans-serif;
   color: var(--color-default);
   background-color: #000;
 }
@@ -45,7 +45,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-primary);
+  font-family: 'Clash Display', sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -64,7 +64,7 @@ h6 {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.6);
-  font-family: var(--font-primary);
+  font-family: 'Clash Display', sans-serif;
 }
 
 .section-header h2::after {
@@ -81,7 +81,7 @@ h6 {
   margin: 0;
   font-size: 36px;
   font-weight: 700;
-  font-family: var(--font-secondary);
+  font-family:'Clash Display', sans-serif;
   color: #fff;
 }
 
@@ -98,7 +98,7 @@ h6 {
   font-size: 56px;
   font-weight: 500;
   color: #fff;
-  font-family: var(--font-secondary);
+  font-family: 'Clash Display', sans-serif;
 }
 
 @media (max-width: 768px) {
@@ -112,7 +112,7 @@ h6 {
 }
 
 .page-header .cta-btn {
-  font-family: var(--font-primary);
+  font-family: 'Clash Display', sans-serif;
   font-weight: 400;
   font-size: 14px;
   display: inline-block;
@@ -294,7 +294,7 @@ h6 {
   margin: 0;
   font-weight: 400;
   color: #fff;
-  font-family: var(--font-secondary);
+  font-family: 'Clash Display', sans-serif;
 }
 
 .header .logo i {
@@ -363,7 +363,7 @@ h6 {
     align-items: center;
     justify-content: space-between;
     padding: 10px 0 10px 30px;
-    font-family: var(--font-primary);
+    font-family: 'Clash Display', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 13px;
@@ -493,7 +493,7 @@ h6 {
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
-    font-family: var(--font-primary);
+    font-family: 'Clash Display', sans-serif;
     font-size: 13px;
     text-transform: uppercase;
     font-weight: 400;
@@ -823,7 +823,7 @@ h6 {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  font-family: var(--font-secondary);
+  font-family: 'Clash Display', sans-serif;
 }
 
 .gallery-single .portfolio-info h3:after {
@@ -873,7 +873,7 @@ h6 {
   font-weight: 700;
   margin-bottom: 20px;
   color: #fff;
-  font-family: var(--font-secondary);
+  font-family: 'Clash Display', sans-serif;
 }
 
 .gallery-single .portfolio-description p {
@@ -1204,7 +1204,7 @@ h6 {
 }
 
 .hero .btn-get-started {
-  font-family: var(--font-primary);
+  font-family: 'Clash Display', sans-serif;
   font-weight: 400;
   font-size: 14px;
   display: inline-block;
